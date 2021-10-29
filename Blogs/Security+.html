@@ -1,0 +1,121 @@
+<html>
+    <head>
+        <title>A-Security+</title>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Londrina+Outline&family=Titillium+Web:wght@300&display=swap');
+            @import url('https://fonts.googleapis.com/css2?family=Londrina+Outline&family=Orbitron&family=Titillium+Web:wght@300&display=swap');
+            </style>
+        <style type = 'text/css'>
+        body{
+            background-color: black;
+            display: grid;
+               place-content: center;
+               text-align: center;
+               margin-top: -600px;
+        }
+           .navbar {
+               width: 99%;
+               height: 100px;
+               border-radius: 25px;
+               box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+           }
+           .navbar navoptions {
+               color: whitesmoke;
+               text-align: right;
+               
+           }
+           .navbar navoptions li{
+               list-style: none;
+               display: inline-flex;
+               text-indent: 150px;
+               margin-top: 55px;
+               word-wrap: normal;
+               font-size: 2rem;
+               margin-left: 10px;
+               font-family: 'Londrina Outline', cursive;
+font-family: 'Titillium Web', sans-serif;
+           }
+           li{
+  transition: all .4s ease-in-out; 
+ }
+ li:hover{
+  transform: scale(1.05); 
+  color: red;
+  text-decoration: overline;
+
+ }
+           .navbar{
+             
+               margin-top: -10px;
+           }
+           .navtitle{
+               text-align: left;
+               color: white;
+               margin-top: -60px;
+               margin-left: -100px;
+font-family: 'Titillium Web', sans-serif;
+           }
+           .animetext{
+               font-size: 100px;
+               transition: all .4s ease-in-out;
+               letter-spacing: 10px;
+font-family: 'Orbitron', sans-serif;
+               color: white;
+               
+               position: relative;
+               width: max-content;
+
+              
+           }
+           .animetext:hover{
+            transform: scale(1.05); 
+  color: red;
+               
+           }
+           hr{
+               background-color: yellowgreen;
+               height: 3px;
+               outline: none;
+           }
+           .animetext::before,
+           .animetext::after{
+              content: '';
+              position: absolute;
+              top: 0;
+              right: 0;
+              bottom: 0;
+              left: 0;
+              
+        }
+        .animetext::before{
+            background: yellowgreen;
+           
+            animation: typewriter 4s steps(12)forwards;
+           
+        }
+        @keyframes typewriter{
+            to {left: 100%;}
+        }
+
+        </style>
+    </head>
+    <body></body>
+        
+        <div class = 'navbar'>
+            
+            <navoptions>
+               
+               <ul>
+                   <li>Home</li>
+                   <li>Hacking</li>
+                   <li>ContactUs</li>
+               </ul>
+               <h1 class="navtitle">A-Security</h1>
+            </navoptions>
+            <h1 class="animetext">Hackers NightClub</h1>
+            
+            <hr>
+        
+        </div>
+    </body>
+</html>
