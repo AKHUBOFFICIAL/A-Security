@@ -4,6 +4,7 @@
         <style>
             @import url('https://fonts.googleapis.com/css2?family=Londrina+Outline&family=Titillium+Web:wght@300&display=swap');
             @import url('https://fonts.googleapis.com/css2?family=Londrina+Outline&family=Orbitron&family=Titillium+Web:wght@300&display=swap');
+            @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
             </style>
         <style type = 'text/css'>
         body{
@@ -53,25 +54,23 @@ font-family: 'Titillium Web', sans-serif;
                color: white;
                margin-top: -60px;
                margin-left: -100px;
-font-family: 'Titillium Web', sans-serif;
+               font-family: 'Bebas Neue', cursive;
            }
            .animetext{
                font-size: 100px;
                transition: all .4s ease-in-out;
                letter-spacing: 10px;
 font-family: 'Orbitron', sans-serif;
-               color: white;
+               color: chartreuse;
                
                position: relative;
                width: max-content;
 
               
            }
-           .animetext:hover{
-            transform: scale(1.05); 
-  color: red;
+           
                
-           }
+           
            hr{
                background-color: yellowgreen;
                height: 3px;
@@ -86,16 +85,69 @@ font-family: 'Orbitron', sans-serif;
               bottom: 0;
               left: 0;
               
+              
         }
         .animetext::before{
             background: yellowgreen;
            
-            animation: typewriter 4s steps(12)forwards;
+            animation: typewriter 2s steps(100)forwards;
            
+        }
+        
+        .animetext:hover{
+            animation: 1s cyber;
+            color: red;
         }
         @keyframes typewriter{
             to {left: 100%;}
         }
+        @keyframes cyber {
+  0% {
+    clip-path: var();
+    transform: translate(-20px, -10px);
+  }
+  10% {
+    clip-path: var();
+    transform: translate(10px, 10px);
+  }
+  20% {
+    clip-path: var();
+    transform: translate(-10px, 10px);
+  }
+  30% {
+    clip-path: var();
+    transform: translate(0px, 5px);
+  }
+  40% {
+    clip-path: var();
+    transform: translate(-5px, 0px);
+  }
+  50% {
+    clip-path: var();
+    transform: translate(5px, 0px);
+  }
+  60% {
+    clip-path: var();
+    transform: translate(5px, 10px);
+  }
+  70% {
+    clip-path: var();
+    transform: translate(-10px, 10px);
+  }
+  80% {
+    clip-path: var();
+    transform: translate(20px, -10px);
+  }
+  90% {
+    clip-path: var();
+    transform: translate(-10px, 0px);
+  }
+  100% {
+    clip-path: var();
+    transform: translate(0);
+    
+  }
+}
 
         </style>
     </head>
